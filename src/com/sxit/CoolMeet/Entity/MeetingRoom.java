@@ -1,0 +1,47 @@
+package com.sxit.CoolMeet.Entity;
+
+public class MeetingRoom {
+	private int roomid;
+	private int roomnum;
+	private String roomname;
+	private int capacity;
+	//ª·“È “◊¥Ã¨   0£∫∆Ù”√   1£∫Õ£”√    2£∫…æ≥˝
+	private String roomStatus;
+	private String description;
+	public int getRoomid() {
+		return roomid;
+	}
+	public void setRoomid(int roomid) {
+		this.roomid = roomid;
+	}
+	public int getRoomnum() {
+		return roomnum;
+	}
+	public void setRoomnum(int roomnum) {
+		this.roomnum = roomnum;
+	}
+	public String getRoomname() {
+		return roomname;
+	}
+	public void setRoomname(String roomname) {
+		this.roomname = roomname;
+	}
+	public int getCapacity() {
+		return capacity;
+	}
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
+	public String getRoomStatus() {
+		return roomStatus;
+	}
+	public void setRoomStatus(String roomStatus) {
+		this.roomStatus = roomStatus;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+}
